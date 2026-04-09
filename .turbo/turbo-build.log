@@ -1,0 +1,41 @@
+$ bun ./script/build.ts
+$ bun run --conditions=browser ./src/index.ts generate
+[95m[@hey-api/sdk] `instance` is deprecated. Use `operations: { strategy: "single", containerName: "M90Client", methods: "instance" }` instead.[39m
+[90m@hey-api/openapi-ts v0.90.10[39m
+
+[90m[Job 1] [39m⏳ [36mGenerating from 1 input:[39m
+[90m[Job 1] [39m[36m  [1] [39m./openapi.json
+[90m[Job 1] [39m[32m✅ Done![39m Your output is in [96m/home/spidermines/Projects/m90v1super/packages/sdk/js/src/v2/gen[39m
+src/gen/client.gen.ts 79ms (unchanged)
+src/gen/client/client.gen.ts 67ms (unchanged)
+src/gen/client/index.ts 4ms (unchanged)
+src/gen/client/types.gen.ts 27ms (unchanged)
+src/gen/client/utils.gen.ts 69ms (unchanged)
+src/gen/core/auth.gen.ts 6ms (unchanged)
+src/gen/core/bodySerializer.gen.ts 15ms (unchanged)
+src/gen/core/params.gen.ts 15ms (unchanged)
+src/gen/core/pathSerializer.gen.ts 25ms (unchanged)
+src/gen/core/queryKeySerializer.gen.ts 14ms (unchanged)
+src/gen/core/serverSentEvents.gen.ts 26ms (unchanged)
+src/gen/core/types.gen.ts 10ms (unchanged)
+src/gen/core/utils.gen.ts 13ms (unchanged)
+src/gen/sdk.gen.ts 106ms (unchanged)
+src/gen/types.gen.ts 197ms (unchanged)
+src/v2/client.ts 97ms (unchanged)
+src/v2/gen/client.gen.ts 12ms
+src/v2/gen/client/client.gen.ts 101ms
+src/v2/gen/client/index.ts 8ms
+src/v2/gen/client/types.gen.ts 43ms
+src/v2/gen/client/utils.gen.ts 118ms
+src/v2/gen/core/auth.gen.ts 8ms
+src/v2/gen/core/bodySerializer.gen.ts 22ms
+src/v2/gen/core/params.gen.ts 24ms
+src/v2/gen/core/pathSerializer.gen.ts 27ms
+src/v2/gen/core/queryKeySerializer.gen.ts 15ms
+src/v2/gen/core/serverSentEvents.gen.ts 36ms
+src/v2/gen/core/types.gen.ts 22ms
+src/v2/gen/core/utils.gen.ts 17ms
+src/v2/gen/sdk.gen.ts 338ms
+src/v2/gen/types.gen.ts 243ms
+src/v2/index.ts 4ms (unchanged)
+src/v2/server.ts 16ms (unchanged)
